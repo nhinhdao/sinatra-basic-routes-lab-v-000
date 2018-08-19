@@ -6,9 +6,9 @@ class App < Sinatra::Base
       "Hello, World!"
    end
 
-   get "/name" do
+   get "/name" do |n|
       halt 200
-      "My name is #{@name}"
+      "My name is #{n}"
    end
 
    get "/hometown" do |n|
