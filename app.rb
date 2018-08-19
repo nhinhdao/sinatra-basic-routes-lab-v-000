@@ -8,16 +8,16 @@ class App < Sinatra::Base
 
    get "/name" do
       halt 200
-      "My name is "
+      "My name is #{n}"
    end
 
    get "/hometown" do
       halt 200
-      "My hometown is "
+      "My hometown is #{n}"
    end
 
-   get "/favorite-song" do
+   get "/favorite-song" do 
       halt 200
-      "My favorite song is "
+      "My favorite song is #{n}"
    end
 end
