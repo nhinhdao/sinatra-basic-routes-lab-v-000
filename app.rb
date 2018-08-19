@@ -6,7 +6,7 @@ class App < Sinatra::Base
       "Hello, World!"
    end
 
-   get "/name" do |n|
+   get "/name" do
       halt 200
       "My name is #{@name}"
    end
