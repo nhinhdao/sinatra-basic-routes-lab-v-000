@@ -6,18 +6,18 @@ class App < Sinatra::Base
       "Hello, World!"
    end
 
-   get "/name" do |n|
+   get "/name" do
       halt 200
-      "My name is #{n}"
+      "My name is "
    end
 
-   get "/hometown" do |n|
+   get "/hometown" do
       halt 200
-      "My hometown is #{n}"
+      "My hometown is "
    end
 
-   get "/favorite-song" do |n|
+   get "/favorite-song" do
       halt 200
-      "My favorite song is #{n}"
+      "My favorite song is "
    end
 end
