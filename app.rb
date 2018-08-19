@@ -7,7 +7,8 @@ class App < Sinatra::Base
    end
 
    get "/name" do |n|
-      "My name is #{n}"
+      puts "My name is #{n}"
+      puts respond.status
    end
 
    get "/hometown" do |n|
