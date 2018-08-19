@@ -7,7 +7,7 @@ class App < Sinatra::Base
    end
 
    get "/:name" do |n|
-      halt 200
+      # halt 200
       "My name is #{n}"
    end
 
