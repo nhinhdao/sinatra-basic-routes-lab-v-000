@@ -14,5 +14,7 @@ class App < Sinatra::Base
       "My hometown is #{n}"
    end
 
-   get "/favorite-song" {|n| "My favorite song is #{n}"}
+   get "/favorite-song" do |n| 
+      "My favorite song is #{n}"
+   end
 end
