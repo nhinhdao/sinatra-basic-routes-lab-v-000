@@ -11,7 +11,7 @@ class App < Sinatra::Base
       "My name is #{n}"
    end
 
-   get "/:hometown" do |n|
+   get "/hometown" do |n|
       # halt 200
       "My hometown is #{n}"
    end
