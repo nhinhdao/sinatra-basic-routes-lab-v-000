@@ -18,6 +18,6 @@ class App < Sinatra::Base
 
    get "/favorite-song" do
       # halt 200
-      "My favorite song is #{@favorite-song}"
+      "My favorite song is #{@favoritesong}"
    end
 end
