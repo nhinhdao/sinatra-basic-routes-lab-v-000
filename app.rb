@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
    get "/name" do |n|
       halt 200
-      puts "My name is #{n}"
+      "My name is #{n}"
    end
 
    get "/hometown" do |n|
