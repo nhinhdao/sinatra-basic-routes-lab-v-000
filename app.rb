@@ -11,13 +11,13 @@ class App < Sinatra::Base
       "My name is #{@name}"
    end
 
-   get "/:hometown" do
+   get "/hometown" do
       # halt 200
       "My hometown is #{@hometown}"
    end
 
-   get "/favorite-song" do |n|
+   get "/favorite-song" do
       # halt 200
-      "My favorite song is #{n}"
+      "My favorite song is #{@favorite-song}"
    end
 end
